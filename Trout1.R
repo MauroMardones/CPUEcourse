@@ -212,7 +212,7 @@ ggpairs(trout[,Coll], ggplot2::aes(alpha = 0.8, colour = season))
 # No obvious collinearity
 #Asta: this plot looks cool, but I don't really get what it shows
 
-#Calculate Variance Inflation Factor (VIF)
+#Calculate Variance Inflation Factor (VIF), Librería "car"
 round(vif(lm(catch ~ anglers + season,
                      data = trout)),2)
 
