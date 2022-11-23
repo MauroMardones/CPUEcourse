@@ -23,7 +23,11 @@ install.packages(toInstall,
 	                      repos = "http://cran.us.r-project.org")
 
 # Be patient!
+#instalar antes dependencias de INLA
 
+if (!requireNamespace("BiocManager", quietly = TRUE))
+    install.packages("BiocManager")
+BiocManager::install(c("graph", "Rgraphviz"), dep=TRUE)
 
 # Install the latest stable version of INLA:
 install.packages("INLA", repos=c(getOption("repos"), 
