@@ -120,6 +120,8 @@ table(zan$Gear)
 # Fyke Gillnet    Line  Others   Trawl 
 # 593     823      48     110      12 
 # Poor balance
+# Saco entonces las artes de pesca con poco dato
+
 
 # Just keep Fyke and Gillnet
 zan1 <- zan[zan$Gear %in% c("Fyke", "Gillnet"), ]
