@@ -83,7 +83,7 @@ multi_dotplot <- function(filename, Xvar, Yvar){
 # DATA EXPLORATION
 
 #Use 'str' to inspect the dataframe
-str(zan)
+glimpse(zan)
 
 # Are there missing values?
 colSums(is.na(zan))

@@ -74,7 +74,7 @@ multi_dotplot <- function(filename, Xvar, Yvar){
 # DATA EXPLORATION
 
 #Use 'str' to inspect the dataframe
-str(hils)
+glimpse(hils)
 
 # Are there missing values?
 colSums(is.na(hils))
