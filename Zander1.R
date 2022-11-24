@@ -151,7 +151,7 @@ My_theme <- theme(panel.background = element_blank(),
 # Plot catch over time
 ggplot(zan1, aes(x = YrMon, y = (Catch))) +
   geom_line(size = 0.5) +
-  My_theme +
+  theme_bw() +
   xlab("Time") + ylab("Catch (kg)")
 
 # Plot catch over time in different stations with different gears
@@ -189,11 +189,12 @@ grid.arrange(p1, p2, nrow = 1)
 
 # Frequency polygon plot for catch
 zan1 %>% ggplot(aes(Catch)) +
-  geom_freqpoly(bins = 4) +
+  geom_freqpoly(bins = 8) +
   labs(x = "Zander caught", y = "Frequency") +
   My_theme +
   theme(panel.border = element_rect(colour = "black", 
-                                    fill=NA, size = 1))
+                                    fill=NA, size = 1))+
+    xlim(0,50)
 
 #Shapiro-Wilk test for deviation from normality
 shapiro.test(zan1$Catch)
