@@ -12,11 +12,13 @@ This is the first part of the course. It introduced basic concepts of fitting li
 
 ## Data and scripts
 
-The [R script](Trout1.R) and the example [dataset](trout.csv). You can also access all the scripts and datasets from the course [GitHub page](https://github.com/fishsizeproject/CPUEcourse).
+The [**R script**](Trout1.R) and the example [**dataset**](trout.csv). You can also access all the scripts and datasets from the course [GitHub page](https://github.com/fishsizeproject/CPUEcourse).
 
 ## Slides and video
 
-Course slides will soon be available here. The tutorial video from the online course meeting will be available here after November 23.
+The tutorial [**video**](https://youtu.be/X1G6AAHFq5M) from the online meeting: lecture and the R script presentation.
+
+And you can also download [**slides**](slides/cpueD1P1.pdf) from this lecture. 
 
 ## Further resources
 

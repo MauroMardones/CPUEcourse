@@ -12,11 +12,13 @@ In this second module of the course we will repeat the basic concepts of linear 
 
 ## Data and scripts
 
-The [R script](Bitterling1.R) and the example [dataset](bitterling.csv). You can also access all the scripts and datasets from the course [GitHub page](https://github.com/fishsizeproject/CPUEcourse).
+The [**R script**](Bitterling1.R) and the example [**dataset**](bitterling.csv). You can also access all the scripts and datasets from the course [GitHub page](https://github.com/fishsizeproject/CPUEcourse).
 
 ## Slides and video
 
-Course slides will soon be available here. The tutorial video from the online course meeting will be available here after November 23.
+The tutorial [**video**](https://youtu.be/Iw1LlytvOoA) from the online meeting: lecture, R script presentation and the day 1 discussion. 
+
+And you can also download [**slides**](slides/cpueD1P2.pdf) from this lecture. 
 
 ## Further resources
 
